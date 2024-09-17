@@ -5,10 +5,10 @@
 ![imagegen-ezgif com-speed](https://github.com/user-attachments/assets/bd4d3b33-3cc1-4eaa-ae1c-373c800241a3)
 
 
-Lambda function to generate a movie poster design using a machine learning model from Bedrock and upload the image to S3.
+Lambda function to generate an image design using a machine learning model from Bedrock and upload the image to S3.
 
 Purpose:
-- Takes an input prompt related to movie poster specifications.
+- Takes an input prompt related to image specifications.
 - Invokes a Bedrock model to generate a poster image.
 - Uploads the generated image to an S3 bucket.
 - Returns a pre-signed URL for accessing the uploaded poster.
@@ -23,7 +23,7 @@ Components:
 
 Usage:
 - Triggered by events containing a 'prompt' parameter.
-- Designed to handle movie poster design requests via API Gateway or other event sources.
+- Designed to handle image design requests via API Gateway or other event sources.
 
 
 # Lambda Function 2: Text Generation
