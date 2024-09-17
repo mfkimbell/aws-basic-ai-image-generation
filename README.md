@@ -1,8 +1,8 @@
-# aws-basic-ai-image-generation
+# aws-basic-ai-image-generation-and-text-summarization
 
 # Lambda Function 1: Movie Poster Design
 
-"""
+
 Lambda function to generate a movie poster design using a machine learning model from Bedrock and upload the image to S3.
 
 Purpose:
@@ -22,11 +22,11 @@ Components:
 Usage:
 - Triggered by events containing a 'prompt' parameter.
 - Designed to handle movie poster design requests via API Gateway or other event sources.
-"""
+
 
 # Lambda Function 2: Text Generation
 
-"""
+
 Lambda function to generate text based on a given prompt using the Bedrock service.
 
 Purpose:
@@ -43,11 +43,11 @@ Components:
 Usage:
 - Triggered by events requiring text generation based on user input.
 - Suitable for generating creative textual responses via API Gateway or other event sources.
-"""
+
 
 # Additional Notes:
-"""
+
 - Ensure Lambda environment has necessary permissions and dependencies (Boto3).
 - Implement error handling for model invocation, S3 upload, and URL generation.
 - Securely manage access to S3 bucket and pre-signed URLs.
-"""
+
