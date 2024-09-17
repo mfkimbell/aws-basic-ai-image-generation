@@ -1,6 +1,6 @@
 # aws-basic-ai-image-generation-and-text-summarization
 
-# Lambda Function 1: Movie Poster Design
+# Lambda Function 1: Image Generation
 
 ![imagegen-ezgif com-speed](https://github.com/user-attachments/assets/bd4d3b33-3cc1-4eaa-ae1c-373c800241a3)
 
