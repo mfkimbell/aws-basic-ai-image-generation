@@ -5,10 +5,6 @@
 ![imagegen-ezgif com-speed](https://github.com/user-attachments/assets/bd4d3b33-3cc1-4eaa-ae1c-373c800241a3)
 
 
-# API Gateway
-<img width="1194" alt="Screenshot 2024-09-17 at 10 37 58 AM" src="https://github.com/user-attachments/assets/9c90daf0-ef4c-4a98-a6f1-0c40dea436d1">
-
-
 Lambda function to generate a movie poster design using a machine learning model from Bedrock and upload the image to S3.
 
 Purpose:
@@ -32,6 +28,7 @@ Usage:
 
 # Lambda Function 2: Text Generation
 
+![Summary-ezgif com-speed](https://github.com/user-attachments/assets/ee1f008b-529b-4c42-8766-92ab0631fdb2)
 
 Lambda function to generate text based on a given prompt using the Bedrock service.
 
